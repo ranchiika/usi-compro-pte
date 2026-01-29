@@ -102,7 +102,7 @@ const Footer = () => {
       <div className="w-full bg-primaryOrange py-5 px-6">
         <div className="mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white text-sm font-medium">
-            © 2025 USI Petrotrans Energi. All Rights Reserved.
+            © 2026 USI Petrotrans Energi. All Rights Reserved.
           </p>
           <div className="flex gap-8 text-white/90 text-sm font-medium">
             <Link href="#" className="hover:text-white transition-opacity">Privacy Policy</Link>

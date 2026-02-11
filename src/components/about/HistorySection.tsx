@@ -10,32 +10,40 @@ const HistorySection = () => {
       year: "2007",
       label: "The Foundation (2007)",
       title: "The Foundation",
-      description: "Our roots began with PT United Shipping Indonesia (USI). As a prestigious National Fuel Agent for PT Pertamina (Persero), USI built a legacy of trust and reliability in maritime logistics.",
+      description: "Our journey began with PT United Shipping Indonesia (USI). As a National Fuel Agent for PT Pertamina (Persero), USI established a strong reputation for reliability, safety, and operational discipline in maritime fuel logistics.",
       image: "/about/history_1.png",
       align: "right" as const,
     },
     {
-      year: "Present",
-      label: "The Evolution: PT USI Petronas Energi",
+      year: "2021",
+      label: "Evolution to Land Operations (2021)",
       title: "The Evolution",
-      description: "PT Petronas Energi (PTE) was established to carry this legacy to the road. We specialize in land freight, bringing maritime-grade precision to land-based fuel distribution.",
+      description: "Building on this foundation, PT USI Petronas Energi (PTE) was established to extend this expertise to land-based operations. Specializing in fuel land freight, PTE applies maritime-grade precision, strict safety standards, and disciplined operational practices to onshore fuel distribution.",
       image: "/about/history_2.png",
       align: "left" as const,
-    }
+    },
+    {
+      year: "Present",
+      label: "Service Workshop Expansion (2025)",
+      title: "Service Workshop",
+      description: "In 2025, PTE expanded its operations to include a commercial service workshop, providing maintenance and servicing capabilities for its fleet and accepting third-party trucks, in full compliance with applicable operational, safety, and regulatory requirements.",
+      image: "/about/history_3.png",
+      align: "right" as const,
+    },
   ], []);
 
   return (
-    <section className="w-full bg-white py-7 px-6 font-sans overflow-hidden">
+    <section id="history" className="w-full bg-white py-7 px-6 font-sans overflow-hidden">
       <div className="mx-auto max-w-7xl">
         
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-10">
           <div className="max-w-2xl">
             <h2 className="font-prompt text-3xl md:text-4xl font-medium text-primaryText leading-tight">
-              A Legacy of Trust,<br />Built Over Decades.
+              A Legacy of Trust,<br /> Built Through Operational Excellence
             </h2>
           </div>
           <p className="max-w-md text-secondaryText text-lg md:text-right md:mt-6 leading-relaxed">
-            Our journey is defined by a commitment to reliability, starting from maritime expertise to becoming a leader in land fuel logistics.
+            Our journey is shaped by decades of operational experience evolving from maritime operations into a trusted provider of land based fuel logistics for industrial sectors.
           </p>
         </div>
 
@@ -80,6 +88,7 @@ const HistorySection = () => {
                     />
                   </motion.div>
                 </div>
+                
 
                 <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primaryGreen border-4 border-white shadow-sm hidden md:block z-10" />
               </div>

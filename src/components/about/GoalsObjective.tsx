@@ -10,29 +10,29 @@ const GoalsObjective = () => {
 
   const goalsData = useMemo(() => [
     {
-      title: "Improve management and quality system",
-      desc: "Commitments are one of the key assets that we have. With our vast experiences in logistic services, we commit to provide the a quality service to clients. However, we do not stop to improve. We aim to constantly improve our management systems, while adding our own transportation management software in our company to ensure 100% quality service.",
+      title: "Operational Excellence",
+      desc: "To maintain disciplined operational procedures that ensure timely, accurate, and uninterrupted fuel delivery.",
       image: "/about/goalsObjective.png",
     },
     {
-      title: "Improve management and quality system",
-      desc: "Commitments are one of the key assets that we have. With our vast experiences in logistic services, we commit to provide the a quality service to clients. However, we do not stop to improve. We aim to constantly improve our management systems, while adding our own transportation management software in our company to ensure 100% quality service.",
-      image: "/about/goalsObjective.png",
+      title: "Safety & HSE Compliance",
+      desc: "To achieve zero-incident operations through strict adherence to HSE standards, training, and continuous safety improvement.",
+      image: "/about/goals_3.png",
     },
     {
-      title: "Improve management and quality system",
-      desc: "Commitments are one of the key assets that we have. With our vast experiences in logistic services, we commit to provide the a quality service to clients. However, we do not stop to improve. We aim to constantly improve our management systems, while adding our own transportation management software in our company to ensure 100% quality service.",
-      image: "/about/goalsObjective.png",
+      title: "Fleet Readiness & Reliability",
+      desc: "To ensure high fleet availability through preventive maintenance, inspections, and readiness planning.",
+      image: "/about/goals_2.png",
     },
     {
-      title: "Improve management and quality system",
-      desc: "Commitments are one of the key assets that we have. With our vast experiences in logistic services, we commit to provide the a quality service to clients. However, we do not stop to improve. We aim to constantly improve our management systems, while adding our own transportation management software in our company to ensure 100% quality service.",
-      image: "/about/goalsObjective.png",
+      title: "Client Support & Continuity",
+      desc: "To support client operations by providing dependable fuel supply tailored to site-specific industrial requirements.",
+      image: "/about/goals_5.png",
     },
     {
-      title: "Improve management and quality system",
-      desc: "Commitments are one of the key assets that we have. With our vast experiences in logistic services, we commit to provide the a quality service to clients. However, we do not stop to improve. We aim to constantly improve our management systems, while adding our own transportation management software in our company to ensure 100% quality service.",
-      image: "/about/goalsObjective.png",
+      title: "Quality & Continuous Improvement",
+      desc: "To continuously improve service quality in line with ISO-based quality management systems and performance monitoring.",
+      image: "/about/goals_4.png",
     },
   ], []);
 
@@ -46,7 +46,7 @@ const GoalsObjective = () => {
 
   const newLocal = "hidden lg:block lg:w-[40%] relative h-[450px] rounded-[30px] overflow-hidden";
   return (
-    <section className="w-full bg-white py-24 px-6 overflow-hidden">
+    <section id="goals-objective" className="w-full bg-white py-24 px-6 overflow-hidden">
       <div className="mx-auto max-w-7xl">
         
         <header className="flex flex-col items-center text-center mb-10">
@@ -56,7 +56,7 @@ const GoalsObjective = () => {
             </span>
           </div>
           <h2 className="font-prompt text-3xl md:text-4xl font-medium text-primaryText leading-tight max-w-3xl">
-            Driving Growth Through Strategic Logistics.
+            Driving Sustainable Growth Through Strategic Fuel Logistics
           </h2>
         </header>
 

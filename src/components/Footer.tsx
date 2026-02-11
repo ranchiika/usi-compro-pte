@@ -8,15 +8,15 @@ import { Instagram, Facebook, Mail } from "lucide-react";
 const Footer = () => {
   const footerLinks = useMemo(() => ({
     about: [
-      { name: "Vision & Mission", href: "/about#vision" },
-      { name: "Goals & Objectives", href: "/about#goals" },
+      { name: "Vision & Mission", href: "/about#vision-mission" },
+      { name: "Goals & Objectives", href: "/about#goals-objective" },
       { name: "History & Parent Company", href: "/about#history" },
+      { name: "Join USI", href: "/about#join-usi" },
     ],
     services: [
-      { name: "Trucking Solutions", href: "/services/trucking" },
-      { name: "Integrated Logistics", href: "/services/logistics" },
-      { name: "Fleet Overview", href: "/services/fleet" },
-      { name: "One-Stop Solution Concept", href: "/services/solution" },
+      { name: "Trucking Solutions", href: "/service#trucking-solution" },
+      { name: "Fleet Overview", href: "/service#fleet-overview" },
+      { name: "One-Stop Solution Concept", href: "/service#solution-concept" },
     ],
     contact: [
       { city: "Surabaya:", phone: "08155-110-111" },

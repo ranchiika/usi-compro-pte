@@ -23,7 +23,7 @@ const IntegratedLogistics = () => {
   ];
 
   return (
-    <section className="w-full bg-white py-10 px-6 font-sans">
+    <section id="integrated" className="w-full bg-white py-10 px-6 font-sans">
       <div className="mx-auto max-w-7xl">
         
         <div className="text-center mb-10">

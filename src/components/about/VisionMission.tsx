@@ -14,7 +14,7 @@ const VisionMission = () => {
   ], []);
 
   return (
-    <section className="w-full bg-white py-10  px-6">
+    <section id="vision-mission" className="w-full bg-white py-10  px-6">
       <div className="mx-auto max-w-7xl">
         
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-16">
@@ -27,7 +27,7 @@ const VisionMission = () => {
             </h2>
           </div>
           <p className="max-w-md font-sans text-secondaryText text-lg md:text-right md:mt-12 leading-relaxed">
-            We aim to be the nation&apos;s leading logistics partner by providing reliable energy solutions and maintaining the highest professional standards in every journey.
+            We specialize in transporting and delivering fuel from supply points directly to operational sites ensuring uninterrupted production across mining, plantation, and industrial environments.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ const VisionMission = () => {
                 </div>
               </div>
               <p className="font-sans text-secondaryText text-lg leading-relaxed">
-                We aim to become the nation&apos;s preferred logistics company that provide reliable logistics solutions to business partners.
+                To set the standard for safe, reliable, and efficient fuel delivery in industrial operations.
               </p>
             </motion.div>
 
@@ -75,16 +75,9 @@ const VisionMission = () => {
                   <Target size={28} />
                 </div>
               </div>
-              <ul className="space-y-4">
-                {missionPoints.map((point, idx) => (
-                  <li key={idx} className="flex items-start gap-3">
-                    <div className="w-2 h-2 rounded-full bg-secondaryText mt-2.5 shrink-0" />
-                    <span className="font-sans text-secondaryText text-lg leading-snug">
-                      {point}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              <p className="font-sans text-secondaryText text-lg leading-relaxed">
+               To deliver fuel safely and reliably from supply points to operational sites, supported by disciplined execution, fleet readiness, and a commitment to high-quality service standards.
+              </p>
             </motion.div>
 
           </div>

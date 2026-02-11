@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div>
       <TruckingSolutions/>
-      <IntegratedLogistics/>
+      {/* <IntegratedLogistics/> */}
       <FleetOverview/>
       <SolutionConcept/>
     </div>

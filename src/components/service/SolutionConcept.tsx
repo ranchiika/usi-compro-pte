@@ -6,7 +6,7 @@ import { Network, CheckSquare } from "lucide-react";
 
 const SolutionConcept = () => {
   return (
-    <section className="w-full bg-white py-10 px-6 font-sans">
+    <section id="solution-concept" className="w-full bg-white py-10 px-6 font-sans">
       <div className="mx-auto max-w-7xl">
         
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-5">
@@ -25,7 +25,7 @@ const SolutionConcept = () => {
 
         <div className="relative w-full h-100 rounded-[30px] overflow-hidden mb-12">
           <Image 
-            src="/home/hero.png"
+            src="/service/solution.png"
             alt="One Stop Energy Logistics"
             fill
             className="object-cover"
@@ -33,7 +33,6 @@ const SolutionConcept = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Card 1 */}
           <div className="bg-bgGrey rounded-[30px] p-10 flex flex-col items-start">
             <div className="bg-[#2D4336] p-4 rounded-[15px] mb-6 shadow-md">
               <Network size={28} className="text-white" />

@@ -7,22 +7,23 @@ import Image from "next/image";
 
 const fleetData = [
   {
-    type: "TYPE NAME",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    type: "PTE — 5,000L",
+    desc: "Small footprint, precise delivery for tight or remote sites",
     liters: "5,000",
-    image: "/home/fleet.png",
+    image: "/fleet/5000L.png",
+    
   },
   {
-    type: "TYPE NAME",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    type: "PTE — 10,000L",
+    desc: "Balanced capacity for medium-scale operations with operational efficiency",
     liters: "10,000",
-    image: "/home/fleet.png",
+    image: "/fleet/10000L.png",
   },
   {
-    type: "TYPE NAME",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    type: "PTE — 16,000L",
+    desc: "High-capacity delivery for demanding industrial sites",
     liters: "16,000",
-    image: "/home/fleet.png",
+    image: "/fleet/16000L.png",
   },
 ];
 
